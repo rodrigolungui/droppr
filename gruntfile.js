@@ -26,11 +26,17 @@ module.exports = function(grunt) {
         tasks: ['uglify']
       }
     },
+
+    karma: {
+      unit: {
+        configFile: 'karma.conf.js'
+      }
+    }
   });
 
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-contrib-uglify');
-  // grunt.loadNpmTasks('grunt-contrib-jshint');
+  grunt.loadNpmTasks('grunt-karma');
   
   grunt.registerTask('test', ['karma']);
 

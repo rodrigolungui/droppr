@@ -4,7 +4,7 @@ module.exports = function(config) {
     frameworks: ['jasmine-jquery', 'jasmine'],
     files: [
       // Fixtures
-      'test/fixtures/fixture.html',
+      'test/fixtures/selectr.html',
 
       // Code selectr
       'src/selectr.js',
@@ -30,7 +30,7 @@ module.exports = function(config) {
     },
     coverageReporter: {
       reporters:[
-        {type: 'html', dir:'test/front/coverage/html/'}
+        {type: 'html', dir:'test/coverage/html/'}
       ]
     }
   });
