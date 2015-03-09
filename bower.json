@@ -5,7 +5,7 @@
   "authors": [
     "Rodrigo Lungui <lungui.rodrigo@gmail.com>"
   ],
-  "description": "A tiny helper to create a custom select.",
+  "description": "A little helper for custom select creation.",
   "main": "src/droppr.js",
   "moduleType": [
     "globals"
