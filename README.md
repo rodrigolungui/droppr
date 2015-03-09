@@ -10,13 +10,13 @@ bower install droppr
 
 # Usage
 ```js
-  window.Droppr({
-    'id': '#select', //parent element of your custom select
-    'itens': 'ul li', //your option list 
-    'onChange': function() {
-      // your handler here
-    }
-  });
+window.Droppr({
+  'id': '#select', //parent element of your custom select
+  'itens': 'ul li', //your option list 
+  'onChange': function() {
+    // your handler here
+  }
+});
 ```
 
 # Contributing
