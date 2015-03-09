@@ -1,7 +1,7 @@
 [![badge](http://img.shields.io/badge/coverage-100%-brightgreen.svg?style=flat)](https://github.com/rodrigolungui/selectr)
 
 # Droppr
-A little helper for create a custom select.
+A little helper for custom select creation.
 
 # Install
 ``` bower install droppr ```
