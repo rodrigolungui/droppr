@@ -4,7 +4,7 @@
 A little helper for create a custom select.
 
 # Install
-``` bower install droppr ``` TODO
+``` bower install droppr ```
 
 # Usage
 ```js
