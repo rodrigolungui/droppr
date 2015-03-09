@@ -1,10 +1,13 @@
 module.exports = function(config) {
   config.set({
     basePath: '',
-    frameworks: ['jasmine-jquery', 'jasmine'],
+    frameworks: ['jasmine-jquery', 'jasmine', 'effroi'],
     files: [
       // Fixtures
       'test/fixtures/selectr.html',
+
+      // Vendors
+      'node_modules/jquery/dist/jquery.min.js',
 
       // Code selectr
       'src/selectr.js',
@@ -18,6 +21,7 @@ module.exports = function(config) {
     reporters: ['progress', 'coverage'],
     plugins: [
       'karma-jasmine',
+      'karma-effroi',
       'karma-jasmine-jquery',
       'karma-coverage',
       'karma-html2js-preprocessor',

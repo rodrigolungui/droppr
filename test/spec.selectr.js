@@ -14,7 +14,7 @@ describe('Selectr', function() {
 
   describe('exceptions', function() {
     beforeEach(function(){
-      jasmine.getFixtures().set(window.__html__['test/front/fixtures/selectr.html']);
+      jasmine.getFixtures().set(window.__html__['test/fixtures/selectr.html']);
     });
 
     it('should throw exception if do not pass params', function(){
@@ -89,7 +89,7 @@ describe('Selectr', function() {
     beforeEach(function(){
       var self = this;
 
-      jasmine.getFixtures().set(window.__html__['test/front/fixtures/selectr.html']);
+      jasmine.getFixtures().set(window.__html__['test/fixtures/selectr.html']);
 
       this.select = $('#select');
       this.called = false;
