@@ -1,0 +1,31 @@
+{
+  "name": "droppr",
+  "version": "0.0.1",
+  "homepage": "https://github.com/rodrigolungui/selectr",
+  "authors": [
+    "Rodrigo Lungui <lungui.rodrigo@gmail.com>"
+  ],
+  "description": "A tiny helper to create a custom select.",
+  "main": "src/selectr.js",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "custom",
+    "select",
+    "js",
+    "mobile",
+    "touch"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "test",
+    "src",
+    "LICENSE",
+    "README.md",
+    "gruntfile.js",
+    "package.json"
+  ]
+}

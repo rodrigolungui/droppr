@@ -4,16 +4,16 @@ module.exports = function(config) {
     frameworks: ['jasmine-jquery', 'jasmine', 'effroi'],
     files: [
       // Fixtures
-      'test/fixtures/selectr.html',
+      'test/fixtures/droppr.html',
 
       // Vendors
       'node_modules/jquery/dist/jquery.min.js',
 
       // Code selectr
-      'src/selectr.js',
+      'src/droppr.js',
 
       // Spec
-      'test/spec.selectr.js'
+      'test/spec.droppr.js'
     ],
     browsers: ['PhantomJS'],
 
@@ -30,7 +30,7 @@ module.exports = function(config) {
     preprocessors: {
       '**/*.html' : ['html2js'],
       '**/*.json' : ['html2js'],
-      'src/selectr.js': ['coverage']
+      'src/droppr.js': ['coverage']
     },
     coverageReporter: {
       reporters:[
