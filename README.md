@@ -1,14 +1,14 @@
 [![badge](http://img.shields.io/badge/coverage-100%-brightgreen.svg?style=flat)](https://github.com/rodrigolungui/selectr)
 
-# Selectr
+# Droppr
 A little helper for create a custom select.
 
 # Install
-``` bower install selectr ``` TODO
+``` bower install droppr ``` TODO
 
 # Usage
 ```js
-  window.Selectr({
+  window.Droppr({
     'id': '#select', //parent element of your custom select
     'itens': 'ul li', //your option list 
     'onChange': function() {
@@ -18,7 +18,7 @@ A little helper for create a custom select.
 ```
 
 # Contributing
- - ``` git clone git@github.com:rodrigolungui/selectr.git ```
+ - ``` git clone git@github.com:rodrigolungui/droppr.git ```
  - make your changes
  - make your tests
  - and send a pull request
