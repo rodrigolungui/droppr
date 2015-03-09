@@ -31,5 +31,7 @@
     }
   };
 
-  global.Selectr = Selectr;
+  global.Selectr = function(params) {
+     new Selectr(params);
+  };
 })(window, document);
