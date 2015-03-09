@@ -20,7 +20,7 @@ window.Droppr({
 ```
 
 # Contributing
- - ``` git clone git@github.com:rodrigolungui/droppr.git ```
+ - `git clone git@github.com:rodrigolungui/droppr.git`
  - make your changes
  - make your tests
  - and send a pull request
