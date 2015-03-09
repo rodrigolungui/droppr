@@ -1,7 +1,7 @@
 (function(global, d) {
   'use strict';
 
-  var Selectr = function(params) {
+  var Droppr = function(params) {
     if (!params) throw 'You need to pass a few parameters!';
     if (! ('id' in params)) throw 'You need to pass a \'id\' parameter to find select!';
     if (! ('itens' in params)) throw 'You need to pass a \'itens\' parameter to find select itens!';
@@ -12,7 +12,7 @@
     this.process(params);
   };
 
-  Selectr.prototype.process = function(params) {
+  Droppr.prototype.process = function(params) {
     var select = d.querySelector(params.id),
         listItem,
         onChangeHandler;
@@ -31,7 +31,7 @@
     }
   };
 
-  global.Selectr = function(params) {
-     new Selectr(params);
+  global.Droppr = function(params) {
+     new Droppr(params);
   };
 })(window, document);
